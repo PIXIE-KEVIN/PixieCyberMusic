@@ -47,7 +47,7 @@ fun About() {
     ) {
         Header(title = stringResource(R.string.about)) {
             BasicText(
-                text =  "PixieCyberMusic v${BuildConfig.VERSION_NAME} by fast4x",
+                text =  "PixieCyberMusic v${BuildConfig.VERSION_NAME} by Pixie Kevin",
                 style = typography.s.secondary
             )
         }
