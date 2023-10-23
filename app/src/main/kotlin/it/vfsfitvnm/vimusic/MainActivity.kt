@@ -448,7 +448,7 @@ class MainActivity : ComponentActivity(), PersistMapOwner {
 
         val uri = intent.getStringExtra("android.intent.extra.TEXT")?.toUri() ?: return
 
-        Toast.makeText(this, "${"RiMusic "}${getString(R.string.opening_url)}", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "${"PixieCyberMusic "}${getString(R.string.opening_url)}", Toast.LENGTH_LONG).show()
 
         lifecycleScope.launch(Dispatchers.IO) {
             when (val path = uri.pathSegments.firstOrNull()) {

@@ -126,7 +126,7 @@ fun DatabaseSettings() {
                 val dateFormat = SimpleDateFormat("yyyyMMddHHmmss")
 
                 try {
-                    backupLauncher.launch("rimusic_${dateFormat.format(Date())}.db")
+                    backupLauncher.launch("PixieCyberMusic_${dateFormat.format(Date())}.db")
                 } catch (e: ActivityNotFoundException) {
                     context.toast("Couldn't find an application to create documents")
                 }

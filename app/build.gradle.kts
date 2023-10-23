@@ -8,11 +8,11 @@ android {
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "it.fast4x.rimusic"
+        applicationId = "Pixie.CyberMusic"
         minSdk = 21
         targetSdk = 33
-        versionCode = 5
-        versionName = "0.6.5"
+        versionCode = 6
+        versionName = "0.7.5"
     }
 
     splits {
@@ -27,13 +27,13 @@ android {
     buildTypes {
         debug {
             applicationIdSuffix = ".debug"
-            manifestPlaceholders["appName"] = "RiMusic-Debug"
+            manifestPlaceholders["appName"] = "PixieCyberMusic-Debug"
         }
 
         release {
             isMinifyEnabled = true
             isShrinkResources = true
-            manifestPlaceholders["appName"] = "RiMusic"
+            manifestPlaceholders["appName"] = "PixieCyberMusic"
             signingConfig = signingConfigs.getByName("debug")
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }

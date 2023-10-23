@@ -47,7 +47,7 @@ fun About() {
     ) {
         Header(title = stringResource(R.string.about)) {
             BasicText(
-                text =  "RiMusic v${BuildConfig.VERSION_NAME} by fast4x",
+                text =  "PixieCyberMusic v${BuildConfig.VERSION_NAME} by fast4x",
                 style = typography.s.secondary
             )
         }
@@ -55,10 +55,10 @@ fun About() {
         SettingsEntryGroupText(title = "SOCIAL")
 
         SettingsEntry(
-            title = "GitHub",
+            title = "Soon",
             text = stringResource(R.string.view_the_source_code),
             onClick = {
-                uriHandler.openUri("https://github.com/fast4x/RiMusic")
+                uriHandler.openUri("")
             }
         )
 
@@ -70,7 +70,7 @@ fun About() {
             title = stringResource(R.string.report_an_issue),
             text = stringResource(R.string.you_will_be_redirected_to_github),
             onClick = {
-                uriHandler.openUri("https://github.com/fast4x/RiMusic/issues/new?assignees=&labels=bug&template=bug_report.yaml")
+                uriHandler.openUri("")
             }
         )
 
@@ -79,7 +79,7 @@ fun About() {
             title = stringResource(R.string.request_a_feature_or_suggest_an_idea),
             text = stringResource(R.string.you_will_be_redirected_to_github),
             onClick = {
-                uriHandler.openUri("https://github.com/fast4x/RiMusic/issues/new?assignees=&labels=feature_request&template=feature_request.yaml")
+                uriHandler.openUri("")
             }
         )
     }

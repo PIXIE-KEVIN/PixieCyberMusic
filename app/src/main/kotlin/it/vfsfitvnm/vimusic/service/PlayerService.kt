@@ -213,7 +213,7 @@ class PlayerService : InvincibleService(), Player.Listener, PlaybackStatsListene
         var directory = cacheDir
 
         if (exoPlayerAlternateCacheLocation=="") {
-           directory = cacheDir.resolve("rimusic_cache").also { directory ->
+           directory = cacheDir.resolve("PixieCyberMusic_cache").also { directory ->
                 if (directory.exists()) return@also
 
                 directory.mkdir()
@@ -232,7 +232,7 @@ class PlayerService : InvincibleService(), Player.Listener, PlaybackStatsListene
         } else {
                 // Available before android 10
                 var path = File(exoPlayerAlternateCacheLocation)
-                directory = path?.resolve("rimusic_cache").also { directory ->
+                directory = path?.resolve("PixieCyberMusic_cache").also { directory ->
                     if (directory?.exists() == true) return@also
 
                     directory?.mkdir()

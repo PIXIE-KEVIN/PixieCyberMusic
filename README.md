@@ -51,17 +51,17 @@
 
 ## Languages Available
 * English, initial forked from ViMusic
-* Italian, native language, thank to me [@fast4x](https://github.com/fast4x)
-* German, native language, thank to [@siggi1984](https://github.com/siggi1984)
-* Russian, native language, thank to [@siggi1984](https://github.com/siggi1984)
-* French, non native language, contribute to improve
-* Spanish, non native language, contribute to improve
+* Italian, native language, thank to me @fast4x
+* German, native language, thank to @siggi1984
+* Russian, native language, thank to @siggi1984
+* French, non native language, contribute to improve 
+* Spanish, non native language, thank to @PIXIE-KEVIN
 
 * contribute for any other language
 
 
 ## Installation
-You can dowload it from [**releases page**](https://github.com/fast4x/RiMusic/releases)
+You can dowload it from [**releases page**]()
 
 <!--
 [<img src="https://github.com/machiav3lli/oandbackupx/blob/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png"
@@ -81,7 +81,7 @@ You can dowload it from [**releases page**](https://github.com/fast4x/RiMusic/re
 - **Translate**, if you want to translate into your language or improve the languages already provided, finally send your Pull Request.
 
 ## Acknowledgments
-- [**ViMusic**](https://github.com/vfsfitvnm/ViMusic): ViMusic
+- [**PixieCyberMusic**]
 - [**YouTube-Internal-Clients**](https://github.com/zerodytrash/YouTube-Internal-Clients): A python script that discovers hidden YouTube API clients. Just a research project.
 - [**ionicons**](https://github.com/ionic-team/ionicons): Premium hand-crafted icons built by Ionic, for Ionic apps and web apps everywhere.
 
