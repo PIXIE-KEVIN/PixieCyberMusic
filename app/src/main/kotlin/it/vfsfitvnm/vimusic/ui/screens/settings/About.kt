@@ -55,20 +55,20 @@ fun About() {
         SettingsEntryGroupText(title = "SOCIAL")
 
         SettingsEntry(
-            title = "Soon",
-            text = stringResource(R.string.view_the_source_code),
+            title = "Canal de Whatsapp",
+            text = stringResource(R.string.the_channels_are_private_no_one_can_see_your_number),
             onClick = {
-                uriHandler.openUri("")
+                uriHandler.openUri("https://whatsapp.com/channel/0029VaCmlbiA89MfbIRXw52h")
             }
         )
 
         SettingsGroupSpacer()
 
-        SettingsEntryGroupText(title = "TROUBLESHOOTING")
+        SettingsEntryGroupText(title = "Report y sugerencias")
 
         SettingsEntry(
             title = stringResource(R.string.report_an_issue),
-            text = stringResource(R.string.you_will_be_redirected_to_github),
+            text = stringResource(R.string.you_will_be_redirected_to_discord),
             onClick = {
                 uriHandler.openUri("")
             }
@@ -77,7 +77,7 @@ fun About() {
 
         SettingsEntry(
             title = stringResource(R.string.request_a_feature_or_suggest_an_idea),
-            text = stringResource(R.string.you_will_be_redirected_to_github),
+            text = stringResource(R.string.you_will_be_redirected_to_discord),
             onClick = {
                 uriHandler.openUri("")
             }

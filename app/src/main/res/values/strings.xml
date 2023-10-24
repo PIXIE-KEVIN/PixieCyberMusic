@@ -59,9 +59,9 @@
     <string name="no_results_found">No results found. Please try a different query or category</string>
     <string name="videos">Videos</string>
     <string name="featured">Featured</string>
-    <string name="view_the_source_code">View the source code</string>
+    <string name="the_channels_are_private_no_one_can_see_your_number">View the source code</string>
     <string name="report_an_issue">Report an issue</string>
-    <string name="you_will_be_redirected_to_github">You will be redirected to GitHub</string>
+    <string name="you_will_be_redirected_to_discord">You will be redirected to GitHub</string>
     <string name="request_a_feature_or_suggest_an_idea">Request a feature or suggest an idea</string>
     <string name="appearance">Appearance</string>
     <string name="colors">COLORS</string>

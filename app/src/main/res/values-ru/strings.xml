@@ -59,9 +59,9 @@
     <string name="no_results_found">Результаты не найдены. Пожалуйста, попробуйте другой поисковый запрос или категорию</string>
     <string name="videos">Видео</string>
     <string name="featured">Рекомендации</string>
-    <string name="view_the_source_code">Показать исходный код</string>
+    <string name="the_channels_are_private_no_one_can_see_your_number">Показать исходный код</string>
     <string name="report_an_issue">Сообщить о проблеме</string>
-    <string name="you_will_be_redirected_to_github">Вы будете перенаправлены на сайт GitHub</string>
+    <string name="you_will_be_redirected_to_discord">Вы будете перенаправлены на сайт GitHub</string>
     <string name="request_a_feature_or_suggest_an_idea">Запросить функцию или предложить идею</string>
     <string name="appearance">Вид</string>
     <string name="colors">Цвета</string>
