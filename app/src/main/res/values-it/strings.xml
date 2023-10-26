@@ -59,7 +59,7 @@
     <string name="no_results_found">Nessun risultato. Cambia la chiave di ricerca o la categoria</string>
     <string name="videos">Video</string>
     <string name="featured">In primo piano</string>
-    <string name="the_channels_are_private_no_one_can_see_your_number">Visualizza il codice sorgente</string>
+    <string name="the_channels_are_private_no_one_can_see_your_number">i canali sono privati e nessuno può vedere il vostro numero</string>
     <string name="report_an_issue">Segnala un bug</string>
     <string name="you_will_be_redirected_to_discord">Sarai reindirizzato su discord</string>
     <string name="request_a_feature_or_suggest_an_idea">Richiedi una funzionalità o suggerisci un\'idea</string>
